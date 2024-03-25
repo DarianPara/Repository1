@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="home">
+        <h1>Welcome to Fitness Tracker</h1>
+        <button id="loginBtn">Login</button>
+        <button id="signupBtn">Sign Up</button>
+        <div id="exerciseOfTheDay"></div> <!-- Placeholder for Exercise of the Day -->
+    </div>
+    
+    <script>
+        document.getElementById('loginBtn').addEventListener('click', function() {
+            window.location.href = '/login.html'; // Update with the correct path
+        });
+        
+        document.getElementById('signupBtn').addEventListener('click', function() {
+            window.location.href = '/signup.html'; // Update with the correct path
+        });
+        
+        // Additional JavaScript code for dynamic functionality can go here
+    </script>
+</body>
+</html>
+
